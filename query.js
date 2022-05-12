@@ -5,7 +5,7 @@ $(document).ready(function(){
             if($("#subject").val() != ""){
             if($("#message").val() != ""){
 
-                $.post("https://autoloadctrl.42web.io/mail.php",
+                $.post("http://autoloadctrl.42web.io/mail.php",
                 {
                   name: $("#name").val(),
                   email: $("#email").val(),
