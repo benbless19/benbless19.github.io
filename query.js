@@ -18,7 +18,7 @@ $(document).ready(function(){
                   alert("Data: " + data + "\nStatus: " + status);
                 });
                 
-            alert("Message sent successfully, We will get back to you!!!");
+            alert("Message sent successfully, We will get back to you");
             }
             else alert("Pls enter your message!!!");  
         }
